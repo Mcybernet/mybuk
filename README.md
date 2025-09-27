@@ -1,5 +1,6 @@
 <h1 align="center">📚 Open Source Book Finder</h1>
 
+
 <h2>🌍 English</h2>
 
 <h3>📖 About</h3>
@@ -42,10 +43,13 @@ cd open-source-book-finder</code></pre>
 </ul>
 
 <h3>📜 License</h3>
-<p>This project is licensed under the <strong>MIT License</strong>.</p>
+<p>This project is licensed under the <strong>MIT License</strong>.</p><br><br><br><br><br>
 
-<hr/>
-<br><br><br><br><br>
+
+
+
+<h1 align="center">📚 Pencari Buku Sumber Terbuka</h1>
+
 <h2>🌏 Bahasa Indonesia</h2>
 
 <h3>📖 Tentang</h3>
