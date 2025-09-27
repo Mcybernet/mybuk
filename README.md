@@ -3,37 +3,41 @@
 **About**<br>
 **Open Source Book Finder is a simple web application to search books from the Open Library API.** <br>
 It allows you to:<br>
-    • 🔍 Search books by title, author, or ISBN<br>
-    • 🌗 Toggle between Light / Dark mode (saved in local storage)<br>
-    • 📖 Quickly open books that are Free, Borrowable, or require Access<br>
-    • 🖼️ Display covers, author, publication year, and snippets<br><br>
+<ul>
+    <li>🔍 Search books by title, author, or ISBN</li>
+    <li>🌗 Toggle between Light / Dark mode (saved in local storage)</li>
+    <li>📖 Quickly open books that are Free, Borrowable, or require Access</li>
+    <li>🖼️ Display covers, author, publication year, and snippets</li>
+</ul><br><br><br>
 
 **Tech Stack**<br>
-    • HTML5 + JavaScript (Vanilla)<br>
-    • Tailwind CSS (CDN) for styling<br>
-    • Heroicons (SVG) for icons<br>
-    • Open Library API as data source<br><br><br><br><br>
+<ul>
+    <li>HTML5 + JavaScript (Vanilla)</li>
+    <li>Tailwind CSS (CDN) for styling</li>
+    <li>Heroicons (SVG) for icons</li>
+    <li>Open Library API as data source</li>
+</ul>
+<br><br><br>
 
-
-
-    
-**Demo**
-**Installation & Usage**
+**Demo**<br>
+**Installation & Usage**<br>
  1. Clone this repository:
     `git clone https://github.com/Mcybernet/mybuk.git
      cd open-source-book-finder`  
  2. Open `index.html` in your browser.
- 3. Start searching! 🔎
+ 3. Start searching! 🔎<br><br><br>
 
 
 
-**Roadmap / Todo**
-    • Add pagination or infinite scroll
-    • Improve mobile UI
-    • Support more metadata (subjects, ratings, etc.)
+**Roadmap / Todo**<br>
+<ul>
+    <li>Add pagination or infinite scroll</li>
+    <li>Improve mobile UI</li>
+    <li>Support more metadata (subjects, ratings, etc.)</li>
+</ul><br><br><br>
 
 
-**License**
+**License**<br>
 This project is licensed under the MIT License.
 
     
