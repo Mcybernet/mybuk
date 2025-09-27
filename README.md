@@ -1,4 +1,4 @@
-🌍 **English**<br>
+🌍 **English**<br><br>
 
 **About**<br>
 **Open Source Book Finder is a simple web application to search books from the Open Library API.** <br>
@@ -8,11 +8,11 @@ It allows you to:<br>
     • 📖 Quickly open books that are Free, Borrowable, or require Access<br>
     • 🖼️ Display covers, author, publication year, and snippets<br><br>
 
-**Tech Stack**
-    • HTML5 + JavaScript (Vanilla)
-    • Tailwind CSS (CDN) for styling
-    • Heroicons (SVG) for icons
-    • Open Library API as data source
+**Tech Stack**<br>
+    • HTML5 + JavaScript (Vanilla)<br>
+    • Tailwind CSS (CDN) for styling<br>
+    • Heroicons (SVG) for icons<br>
+    • Open Library API as data source<br><br><br><br><br>
 
 
 
