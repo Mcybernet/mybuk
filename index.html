@@ -251,10 +251,14 @@ toggleBtn.addEventListener("click", () => {
             badgeHtml = `<span class="badge bg-blue-600 text-white px-3 py-1.5 rounded-full text-sm">Borrow</span>`;
             btnHtml = `<button onclick="openModal('${readUrl}','${workUrl}')" 
               class="mt-3 bg-blue-600 hover:bg-blue-700 text-white px-3 py-2 rounded-lg"><i class="bi bi-book"></i>Baca Sekarang</button>`;
-          } else {
+            } else {
             badgeHtml = `<span class="badge bg-gray-600 text-white px-3 py-1.5 rounded-full text-sm"><i class="bi bi-shield-lock"></i> Need Access</span>`;
-            btnHtml = `<button href="${workUrl}" target="_blank" class="mt-3 bg-gray-600 hover:bg-gray-700 text-white px-3 py-2 rounded-lg"> <i class="bi bi-shield-lock"></i>   Need Access</button>`;
-          }
+            btnHtml = `<button onclick="openModal('${readUrl}','${workUrl}')" 
+                class="mt-3 bg-gray-600 hover:bg-gray-700 text-white px-3 py-2 rounded-lg">
+                <i class="bi bi-shield-lock"></i> Need Access
+            </button>`;
+            }
+
 
           const card = document.createElement("article");
           card.className =
