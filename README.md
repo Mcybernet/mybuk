@@ -1,13 +1,12 @@
 🌍 **English**
 
 **About**
-**Open Source Book Finder is a simple web application to search books from the Open Library API.**
+**Open Source Book Finder is a simple web application to search books from the Open Library API.** <br>
 It allows you to:
     • 🔍 Search books by title, author, or ISBN
     • 🌗 Toggle between Light / Dark mode (saved in local storage)
     • 📖 Quickly open books that are Free, Borrowable, or require Access
     • 🖼️ Display covers, author, publication year, and snippets
-
 
 **Tech Stack**
     • HTML5 + JavaScript (Vanilla)
