@@ -157,7 +157,7 @@ toggleBtn.addEventListener("click", () => {
 
       let allDocs = [];
       let currentPage = 1;
-      const pageSize = 24;
+      const pageSize = 14;
       const resultsDiv = document.getElementById("results");
 
       const FALLBACK_IMG =
@@ -297,7 +297,9 @@ toggleBtn.addEventListener("click", () => {
 
           if (currentPage > 1) {
             const prevBtn = document.createElement("button");
-            prevBtn.textContent = "⬅️ Prev";
+            // prevBtn.textContent = "⬅️ Prev";
+            prevBtn.innerHTML = `<i class="bi bi-chevron-left"></i> Prev`;
+
             prevBtn.className =
               "px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded-lg";
             prevBtn.onclick = () => {
@@ -309,7 +311,9 @@ toggleBtn.addEventListener("click", () => {
 
           if (currentPage < totalPages) {
             const nextBtn = document.createElement("button");
-            nextBtn.textContent = "Next ➡️";
+            // nextBtn.textContent = "Next ";
+            nextBtn.innerHTML = `Next <i class="bi bi-chevron-right"></i>`;
+
             nextBtn.className =
               "px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded-lg";
             nextBtn.onclick = () => {
